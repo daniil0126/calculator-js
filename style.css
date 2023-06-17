@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(184, 184, 184);
+}
+
+.calculator {
+    margin: 0 auto;
+    width: 220px;
+    background-color: rgb(240, 240, 240);
+}
+
+#input {
+    border: none;
+    width: 216px;
+    height: 50px;
+}
+
+#buttonsCont {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#calcilatorButtons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.btn {
+    border: 1px solid rgb(240, 240, 240);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+}
+.btn-plus{
+    border: 1px solid rgb(240, 240, 240);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+}
+.btn-minus{
+    border: 1px solid rgb(240, 240, 240);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+}
+.btn-umnozhit{
+    border: 1px solid rgb(240, 240, 240);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+}
+.btn-razdelit{
+    border: 1px solid rgb(240, 240, 240);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+}
+.btn-ravno{
+    border: 1px solid rgb(240, 240, 240);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+}
+.btn-all-clear{
+    border: 1px solid rgb(240, 240, 240);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+}
+.btn-plus:hover {
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+}
+.btn-minus:hover {
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+}
+.btn-umnozhit:hover {
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+}
+.btn-razdelit:hover {
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+}
+.btn-ravno:hover {
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+}
+.btn-all-clear:hover {
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+}
+
+.chek {
+    padding: 5px 10px 0px 0px;
+    margin: 0;
+    font-size: 30px;
+    text-align: end;
+}
